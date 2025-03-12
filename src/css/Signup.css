@@ -1,0 +1,103 @@
+/* General Styles */
+.signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+/* Image Styling */
+.signup-container img {
+    width: 250px; /* Adjust the size as needed */
+    margin-right: 40px;
+}
+
+/* Signup Box */
+.signup-box {
+    background: none; /* Removes background color */
+    padding: 40px;
+    width: 400px;
+    text-align: left; /* Align text to the left */
+    border-radius: 0px; /* Removes rounded borders */
+}
+
+/* Heading Styling */
+.signup-box h2 {
+    font-size: 28px; /* Bigger heading */
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center; /* Keeps heading centered */
+}
+
+/* Input Fields */
+.signup-box input,
+.signup-box select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Signup Button */
+.signup-btn {
+    width: 106%;
+    padding: 12px;
+    background-color: #e8ab5d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-top: 10px;
+  
+}
+
+.signup-btn:hover {
+    background-color: #d99e00;
+}
+
+.upload-container {
+    text-align: center;
+  }
+  
+  .upload-input {
+    display: none; /* Hide the actual file input */
+  }
+  
+  .upload-btn {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    background-color: #fef3e6; /* Light background */
+    color: #e8ab5d; /* Orange text */
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #e8ab5d;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .upload-btn:hover {
+    background-color: #e8ab5d;
+    color: white;
+  }
+  .login-btn {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #e8ab5d;
+    padding: 11px 19px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #e8ab5d;
+    color: white;
+}
